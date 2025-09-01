@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://employee-management-od1a.onrender.com/api';
 
 
 // Get token from localStorage
