@@ -8,7 +8,7 @@ const app = express();
 
 // Enhanced CORS configuration
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://crm-coaching.vercel.app','https://doitmyway-crm.vercel.app,https://employee-management-od1a.onrender.com'],
+  origin: ['http://localhost:3000', 'https://crm-coaching.vercel.app','https://doitmyway-crm.vercel.app','https://employee-management-od1a.onrender.com'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['*']
 }));
