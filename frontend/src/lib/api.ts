@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:  'https://crm-coaching-2.onrender.com/api',
+    baseURL:  'https://employee-management-od1a.onrender.com/api',
     headers: {
         'Content-Type': 'application/json'
     }
