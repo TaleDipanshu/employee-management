@@ -20,12 +20,4 @@ This CRM helps manage employees, track roles, and maintain records.
 - **Email:** `crm_admin@login.com`  
 - **Password:** `Admin@2025`  
 
----
-
-
-
-
-
-
-# WhatsApp and Other Paid Features are stopped currently ..
 
