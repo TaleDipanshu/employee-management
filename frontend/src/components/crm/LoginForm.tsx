@@ -84,6 +84,14 @@ export const LoginForm = ({ onLogin }: LoginFormProps) => {
             <Button type="submit" className="w-full" disabled={isLoading}>
               {isLoading ? "Signing In..." : "Sign In"}
             </Button>
+            <div className="text-gray-400 bg-slate-300 p-4 border border-spacing-2">
+              <h1 className="text-center text-gray-400 bg-slate-600">Admin Login Credentials</h1>
+            <h1>email : crm_admin@login.com</h1>
+              <h1>password: Admin@2025</h1>
+              <h1 className="text-center text-gray-400 bg-slate-600">Employee Login Credentials</h1>
+            <h1>email : test178@gmail.com</h1>
+            <h1>password: Test#123</h1>
+            </div>
           </form>
         </CardContent>
       </Card>
